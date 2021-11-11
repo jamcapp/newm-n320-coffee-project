@@ -1,0 +1,20 @@
+{
+    "bean1": {
+        "roast": "light",
+        "origin": "location1",
+        "flavor": "good",
+        "brewing-methods": ["method1", "method2", "method3"]
+    },
+    "bean2": {
+        "roast": "medium",
+        "origin": "location2",
+        "flavor": "great",
+        "brewing-methods": ["method1", "method2", "method3"]
+    },
+    "bean3": {
+        "roast": "dark",
+        "origin": "location3",
+        "flavor": "best",
+        "brewing-methods": ["method1", "method2", "method3"]
+    }
+}
