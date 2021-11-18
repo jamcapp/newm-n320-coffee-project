@@ -2,7 +2,7 @@
 
 # Project 2 NEWM-N320 Coffee Project
 
-Topic: Coffee Beans
+Topic: Coffee Beans \
 Group Members: Jaden Cappelletti and Michael Marckwordt
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
