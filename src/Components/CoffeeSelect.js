@@ -6,7 +6,8 @@ export default function CoffeeSelect(props) {
     const [testVal, setTestVal] = useState(0);
 
     return(
-        <div class="CoffeeSelect">Select Coffee
+        <div class="CoffeeSelect">
+            <h4>Select Coffee</h4>
             <CoffeeSelectIcons />
         </div>
     )
