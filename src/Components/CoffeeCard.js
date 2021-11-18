@@ -6,19 +6,36 @@ export default function CoffeeCard(props) {
 
     return(
         <div className="CoffeeCard">
-            
-            {/* CARD HEADER */}
-            <div className="CoffeeName">Coffee Name
-                <div className="CoffeeSubtext">coffee subtext</div>
-            </div>
 
-            {/* INFORMATION BOXES */}
-            <div className="InfoBoxes">
-                <div className="InfoBox one">hello1</div>
-                <div className="InfoBox two">hello2</div>
-                <div className="InfoBox three">hello3</div>
-                <div className="InfoBox four">hello4</div>
+            {/* IMAGE AND DESCRIPTION */}
+            <div className="LeftSide">
+                <div className="CoffeeImage">IMAGE</div>
+                <div className="CoffeeDescription">
+                    this is a test sentence and more words to test the styling.
+                </div>
             </div>
+            
+            <div className="RightSide">
+                {/* CARD HEADER */}
+                <div className="CoffeeName">Coffee Name
+                    <div className="CoffeeSubtext">coffee subtext</div>
+                </div>
+
+                {/* INFORMATION BOXES */}
+                <div className="InfoBoxes">
+
+                    <div className="SmallBoxes">
+                        <div className="InfoBox one">hello1</div>
+                        <div className="InfoBox two">hello2</div>
+                        <div className="InfoBox three">hello3</div>
+                        <div className="InfoBox four">hello4</div>
+                    </div>
+
+                    <div className="LargeBox">
+                        content
+                    </div>
+                </div>
+            </div>    
         </div>
     )
 }

@@ -1,15 +1,26 @@
 /* Card styling */
 .CoffeeCard {
   background-color: #fbf2c0;
-  border: solid;
-  border-color: #48392a;
-  border-width: 3px;
+  border: solid 3px #48392a;
   border-radius: 10px;
   width: 500px;
   padding: 10px;
+  display: flex;
 }
 
-/* Name of Coffee on card */
+.CoffeeCard .LeftSide {
+  width: 100px;
+  padding: 10px;
+}
+
+.CoffeeCard .CoffeeImage {
+  width: 100px;
+  height: 100px;
+  background-color: #43281c;
+  color: white;
+}
+
+/* Name of coffee on card */
 .CoffeeCard .CoffeeName {
   color: #f96f5d;
 }
@@ -21,32 +32,40 @@
 
 /* #43281c <-- use this color somewhere? */
 
-/* Area with the 4 information boxes */
+/* Area with the small and large info boxes */
 .CoffeeCard .InfoBoxes {
+  display: inline;
+}
+
+/* Area with the 4 small boxes */
+.CoffeeCard .InfoBoxes .SmallBoxes {
   display: flex;
 }
 
-/* Common style for all boxes */
-.CoffeeCard .InfoBoxes .InfoBox {
+/* Common style for all small boxes */
+.CoffeeCard .InfoBoxes .SmallBoxes .InfoBox {
   padding: 10px;
+  border: solid 2px #43281c;
+  background-color: whitesmoke;
+  margin: 0 auto;
 }
 
 /* Set properties for box 1 */
 .CoffeeCard .InfoBoxes .one {
-  background-color: red;
+  /* background-color: red; */
 }
 
 /* Set properties for box 2 */
 .CoffeeCard .InfoBoxes .two {
-  background-color: green;
+  /* background-color: green; */
 }
 
 /* Set properties for box 3 */
 .CoffeeCard .InfoBoxes .three {
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 /* Set properties for box 4 */
 .CoffeeCard .InfoBoxes .four {
-  background-color: purple;
+  /* background-color: purple; */
 }
