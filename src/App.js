@@ -9,8 +9,10 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <h1>hi</h1> 
-        <CoffeeSelect />
-        <CoffeeCard />
+        <div className="CoffeeStuff">
+          <CoffeeSelect />
+          <CoffeeCard />
+        </div>
       </div>
     );
   }

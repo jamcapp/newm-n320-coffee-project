@@ -1,0 +1,16 @@
+.CoffeeCard {
+  background-color: #fbf2c0;
+  border-color: #48392a;
+  border-width: 10px;
+  border-radius: 10px;
+  width: 500px;
+  padding: 10px;
+}
+
+.CoffeeCard .CoffeeName {
+  color: #f96f5d;
+}
+
+.CoffeeCard .CoffeeName .CoffeeSubtext {
+  color: #c06e52;
+}
