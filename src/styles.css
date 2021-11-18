@@ -102,8 +102,23 @@
   margin-top: 10px;
   margin-right: 10px;
   text-align: left;
+  margin-bottom: 10px;
 }
 
+/* Prevent text in large box from affecting layout and size of other elements */
 .CoffeeCard .InfoBoxes .LargeBox .LargeBoxText {
   max-width: fit-content;
+}
+
+/* CoffeeSelect */
+
+.CoffeeSelect {
+  margin-right: 20px;
+}
+
+/* these should be circles */
+.CoffeeSelect .CoffeeIcon {
+  border: solid 2px black;
+  border-radius: 100px;
+  margin-top: 30px;
 }

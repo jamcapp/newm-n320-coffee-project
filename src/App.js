@@ -7,7 +7,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>hi</h1> 
+        <h1>Coffee App</h1> 
         <div className="CoffeeStuff">
           <CoffeeSelect />
           <CoffeeCard />
