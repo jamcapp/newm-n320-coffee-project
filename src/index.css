@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/* Holds CoffeeSelect and CoffeeCard */
 .CoffeeStuff {
   display: flex;
   justify-content: center;
