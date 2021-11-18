@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from "react"; 
-import "../styles.css"; 
+import React, { useState, useEffect } from "react";
+import "../styles.css";
 
 export default function CoffeeSelect(props) {
-    const [testVal, setTestVal] = useState(0);
+  const [testVal, setTestVal] = useState(0);
 
-    return(
-        <div>
-            <div class="CoffeeIcon">one</div>
-            <div class="CoffeeIcon">two</div>
-            <div class="CoffeeIcon">three</div>
-            <div class="CoffeeIcon">four</div>
-            <div class="CoffeeIcon">five</div>
-        </div>
-    )
+  return (
+    <div>
+      <div className="CoffeeIcon">one</div>
+      <div className="CoffeeIcon">two</div>
+      <div className="CoffeeIcon">three</div>
+      <div className="CoffeeIcon">four</div>
+      <div className="CoffeeIcon">five</div>
+    </div>
+  );
 }

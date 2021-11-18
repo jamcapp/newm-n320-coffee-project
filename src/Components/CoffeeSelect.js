@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react"; 
+import React, { useState, useEffect } from "react";
 import CoffeeSelectIcons from "./CoffeeSelectIcons";
-import "../styles.css"; 
+import "../styles.css";
 
 export default function CoffeeSelect(props) {
-    const [testVal, setTestVal] = useState(0);
+  const [testVal, setTestVal] = useState(0);
 
-    return(
-        <div class="CoffeeSelect">
-            <h4>Select Coffee</h4>
-            <CoffeeSelectIcons />
-        </div>
-    )
+  return (
+    <div className="CoffeeSelect">
+      <h4>Select Coffee</h4>
+      <CoffeeSelectIcons />
+    </div>
+  );
 }
