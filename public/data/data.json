@@ -1,20 +1,37 @@
-{
-    "bean1": {
-        "roast": "light",
-        "origin": "location1",
-        "flavor": "good",
-        "brewing-methods": ["method1", "method2", "method3"]
-    },
-    "bean2": {
+[
+    {
+        "name": "Tanzania Peaberry",
         "roast": "medium",
-        "origin": "location2",
-        "flavor": "great",
-        "brewing-methods": ["method1", "method2", "method3"]
+        "origin": "Tanzania",
+        "flavor": "deep and rich",
+        "brewing-methods": ["drip and pour over", "electric percolator", "napoletana"]
     },
-    "bean3": {
+    {
+        "name": "Hawaii Kona",
+        "roast": "medium",
+        "origin": "Hawaii",
+        "flavor": "rich and light",
+        "brewing-methods": ["drip and french press", "vacuum", "coffee bag"]
+    },
+    {
+        "name": "Nicaraguan Coffee",
         "roast": "dark",
-        "origin": "location3",
-        "flavor": "best",
-        "brewing-methods": ["method1", "method2", "method3"]
+        "origin": "Nicaragua",
+        "flavor": "hints of chocolate",
+        "brewing-methods": ["french press", "pour over", "espresso"]
+    },
+    {
+        "name": "Sumatra Mandheling",
+        "roast": "dark",
+        "origin": "Indonesia",
+        "flavor": "smooth and sweet",
+        "brewing-methods": ["moka pot", "espresso", "aeropress"]
+    },
+    {
+        "name": "Yirgacheffe",
+        "roast": "light",
+        "origin": "Ethiopia",
+        "flavor": "light and fruity",
+        "brewing-methods": ["drip and pour over", "electric percolator", "cold press"]
     }
-}
+]
