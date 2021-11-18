@@ -17,9 +17,12 @@ export default function CoffeeCard(props) {
             
             <div className="RightSide">
                 {/* CARD HEADER */}
-                <div className="CoffeeName">Coffee Name
-                    <div className="CoffeeSubtext">coffee subtext</div>
+                <div className="CardHeader">
+                    <div className="CoffeeName">Coffee Name
+                        <div className="CoffeeSubtext">coffee subtext</div>
+                    </div>
                 </div>
+                
 
                 {/* INFORMATION BOXES */}
                 <div className="InfoBoxes">

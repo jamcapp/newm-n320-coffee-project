@@ -8,26 +8,47 @@
   display: flex;
 }
 
+/* Image and description area */
 .CoffeeCard .LeftSide {
   width: 100px;
   padding: 10px;
 }
 
-.CoffeeCard .CoffeeImage {
+/* Placeholder content for the coffee image */
+.CoffeeCard .LeftSide .CoffeeImage {
   width: 100px;
   height: 100px;
   background-color: #43281c;
   color: white;
 }
 
+/* Description below image */
+.CoffeeCard .LeftSide .CoffeeDescription {
+  margin-top: 10px; /* adjust as needed */
+  color: #43281c;
+  font-size: 16px;
+}
+
+/* Name and info area */
+.CoffeeCard .RightSide {
+  /* background-color: green; */
+}
+
+.CoffeeCard .RightSide .CardHeader {
+  display: flex;
+}
+
 /* Name of coffee on card */
 .CoffeeCard .CoffeeName {
   color: #f96f5d;
+  font-size: 30px;
 }
 
 /* Subtext below coffee name */
 .CoffeeCard .CoffeeName .CoffeeSubtext {
   color: #c06e52;
+  font-size: 15px;
+  display: flex;
 }
 
 /* #43281c <-- use this color somewhere? */
