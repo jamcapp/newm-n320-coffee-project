@@ -93,3 +93,17 @@
 .CoffeeCard .InfoBoxes .four {
   /* background-color: purple; */
 }
+
+/* Large info box */
+.CoffeeCard .InfoBoxes .LargeBox {
+  padding: 10px;
+  border: solid 2px #43281c;
+  background-color: whitesmoke;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.CoffeeCard .InfoBoxes .LargeBox .LargeBoxText {
+  max-width: fit-content;
+}

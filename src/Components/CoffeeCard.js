@@ -29,13 +29,15 @@ export default function CoffeeCard(props) {
 
                     <div className="SmallBoxes">
                         <div className="InfoBox one">hello1 asdf af Coffee Beans</div>
-                        <div className="InfoBox two">hello2</div>
+                        <div className="InfoBox two">hello2 more text than box one</div>
                         <div className="InfoBox three">hello3</div>
                         <div className="InfoBox four">hello4</div>
                     </div>
 
                     <div className="LargeBox">
-                        content
+                        <div className="LargeBoxText">
+                            this is where some text would go afioejwf test 1 2 3  3 4 4  24 24 24 4 
+                        </div>
                     </div>
                 </div>
             </div>    
