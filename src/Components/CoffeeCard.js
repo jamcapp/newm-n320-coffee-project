@@ -28,7 +28,7 @@ export default function CoffeeCard(props) {
                 <div className="InfoBoxes">
 
                     <div className="SmallBoxes">
-                        <div className="InfoBox one">hello1</div>
+                        <div className="InfoBox one">hello1 asdf af Coffee Beans</div>
                         <div className="InfoBox two">hello2</div>
                         <div className="InfoBox three">hello3</div>
                         <div className="InfoBox four">hello4</div>

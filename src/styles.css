@@ -4,7 +4,7 @@
   border: solid 3px #48392a;
   border-radius: 10px;
   width: 500px;
-  padding: 10px;
+  padding: 25px;
   display: flex;
 }
 
@@ -27,11 +27,13 @@
   margin-top: 10px; /* adjust as needed */
   color: #43281c;
   font-size: 16px;
+  text-align: left;
 }
 
 /* Name and info area */
 .CoffeeCard .RightSide {
   /* background-color: green; */
+  margin-left: 30px;
 }
 
 .CoffeeCard .RightSide .CardHeader {
@@ -41,17 +43,15 @@
 /* Name of coffee on card */
 .CoffeeCard .CoffeeName {
   color: #f96f5d;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 /* Subtext below coffee name */
 .CoffeeCard .CoffeeName .CoffeeSubtext {
   color: #c06e52;
-  font-size: 15px;
+  font-size: 17px;
   display: flex;
 }
-
-/* #43281c <-- use this color somewhere? */
 
 /* Area with the small and large info boxes */
 .CoffeeCard .InfoBoxes {
@@ -61,6 +61,7 @@
 /* Area with the 4 small boxes */
 .CoffeeCard .InfoBoxes .SmallBoxes {
   display: flex;
+  margin-top: 10px;
 }
 
 /* Common style for all small boxes */
@@ -69,6 +70,8 @@
   border: solid 2px #43281c;
   background-color: whitesmoke;
   margin: 0 auto;
+  max-width: 50px;
+  margin-right: 10px;
 }
 
 /* Set properties for box 1 */
