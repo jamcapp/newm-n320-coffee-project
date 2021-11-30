@@ -11,7 +11,7 @@ export default function App() {
 
   //load json data
   useEffect(() => {
-    fetch("data/data.json")
+    fetch("data/coffee.json")
       .then((result) => result.json())
       .then((data) => {
         //store data
