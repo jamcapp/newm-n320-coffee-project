@@ -6,11 +6,15 @@ export default function CoffeeSelect(props) {
 
   return (
     <div>
-      <div className="CoffeeIcon">one</div>
-      <div className="CoffeeIcon">two</div>
-      <div className="CoffeeIcon">three</div>
-      <div className="CoffeeIcon">four</div>
-      <div className="CoffeeIcon">five</div>
+      <button className="CoffeeIcon" onClick={showCoffee}>one</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>two</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>three</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>four</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>five</button>
     </div>
   );
+
+  function showCoffee() {
+    console.log("click");
+  }
 }
