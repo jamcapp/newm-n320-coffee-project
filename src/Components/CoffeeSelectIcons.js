@@ -6,15 +6,19 @@ export default function CoffeeSelect(props) {
 
   return (
     <div>
-      <button className="CoffeeIcon" onClick={showCoffee}>one</button>
-      <button className="CoffeeIcon" onClick={showCoffee}>two</button>
-      <button className="CoffeeIcon" onClick={showCoffee}>three</button>
-      <button className="CoffeeIcon" onClick={showCoffee}>four</button>
-      <button className="CoffeeIcon" onClick={showCoffee}>five</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>Tanzania Peaberry</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>Hawaii Kona</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>Nicaraguan Coffee</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>Sumatra Mandheling</button>
+      <button className="CoffeeIcon" onClick={showCoffee}>Yirgacheffe</button>
     </div>
   );
 
   function showCoffee() {
-    console.log("click");
+    fetch("data/coffee.json")
+      .then((result) => result.json())
+      .then((data) => {
+        console.log(data);
+      });
   }
 }
