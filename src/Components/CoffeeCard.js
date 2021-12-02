@@ -5,6 +5,8 @@ import "../styles.css";
 export default function CoffeeCard(props) {
   const [testVal, setTestVal] = useState(0);
 
+  // use effect transition
+
   return (
     <div className="CoffeeCard">
       {/* IMAGE AND DESCRIPTION */}
