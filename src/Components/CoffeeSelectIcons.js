@@ -6,19 +6,23 @@ export default function CoffeeSelect(props) {
 
   return (
     <div>
-      <button className="CoffeeIcon" onClick={showCoffee}>Tanzania Peaberry</button>
-      <button className="CoffeeIcon" onClick={showCoffee}>Hawaii Kona</button>
-      <button className="CoffeeIcon" onClick={showCoffee}>Nicaraguan Coffee</button>
-      <button className="CoffeeIcon" onClick={showCoffee}>Sumatra Mandheling</button>
-      <button className="CoffeeIcon" onClick={showCoffee}>Yirgacheffe</button>
+      <button className="CoffeeIcon" onClick={() => {showCoffee(0)}}>Tanzania Peaberry</button>
+      <button className="CoffeeIcon" onClick={() => {showCoffee(1)}}>Hawaii Kona</button>
+      <button className="CoffeeIcon" onClick={() => {showCoffee(2)}}>Nicaraguan Coffee</button>
+      <button className="CoffeeIcon" onClick={() => {showCoffee(3)}}>Sumatra Mandheling</button>
+      <button className="CoffeeIcon" onClick={() => {showCoffee(4)}}>Yirgacheffe</button>
     </div>
   );
 
-  function showCoffee() {
+  function showCoffee(beanID) {
+    // beanID is passed in as argument.
+    console.log(beanID);
     fetch("data/coffee.json")
       .then((result) => result.json())
       .then((data) => {
-        console.log(data);
+        // log the data for the beanID.
+        console.log(data[beanID]);
       });
+      
   }
 }
