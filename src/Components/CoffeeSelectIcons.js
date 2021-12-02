@@ -6,11 +6,46 @@ export default function CoffeeSelect(props) {
 
   return (
     <div>
-      <button className="CoffeeIcon" onClick={() => {showCoffee(0)}}>Tanzania Peaberry</button>
-      <button className="CoffeeIcon" onClick={() => {showCoffee(1)}}>Hawaii Kona</button>
-      <button className="CoffeeIcon" onClick={() => {showCoffee(2)}}>Nicaraguan Coffee</button>
-      <button className="CoffeeIcon" onClick={() => {showCoffee(3)}}>Sumatra Mandheling</button>
-      <button className="CoffeeIcon" onClick={() => {showCoffee(4)}}>Yirgacheffe</button>
+      <button
+        className="CoffeeIcon"
+        onClick={() => {
+          showCoffee(0);
+        }}
+      >
+        Tanzania Peaberry
+      </button>
+      <button
+        className="CoffeeIcon"
+        onClick={() => {
+          showCoffee(1);
+        }}
+      >
+        Hawaii Kona
+      </button>
+      <button
+        className="CoffeeIcon"
+        onClick={() => {
+          showCoffee(2);
+        }}
+      >
+        Nicaraguan Coffee
+      </button>
+      <button
+        className="CoffeeIcon"
+        onClick={() => {
+          showCoffee(3);
+        }}
+      >
+        Sumatra Mandheling
+      </button>
+      <button
+        className="CoffeeIcon"
+        onClick={() => {
+          showCoffee(4);
+        }}
+      >
+        Yirgacheffe
+      </button>
     </div>
   );
 
@@ -22,7 +57,7 @@ export default function CoffeeSelect(props) {
       .then((data) => {
         // log the data for the beanID.
         console.log(data[beanID]);
+        props.setBean(data[beanID]);
       });
-      
   }
 }

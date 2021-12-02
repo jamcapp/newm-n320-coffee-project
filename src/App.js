@@ -6,8 +6,8 @@ import CoffeeSelect from "./Components/CoffeeSelect";
 export default function App() {
   //hook for coffeeBeans
   const [coffeeBeans, setCoffeeBeans] = useState([]);
-  //hook for beanName, just for testing for now
-  const [beanName, setBeanName] = useState("");
+  //hook for currnet bean
+  const [bean, setBean] = useState({});
 
   //load json data
   useEffect(() => {
@@ -18,9 +18,8 @@ export default function App() {
         setCoffeeBeans(data);
         //log data to console
         console.log(data);
-        //set bean name
-        //this is just for testing
-        setBeanName(data[0].name);
+        //set bean
+        setBean(data[0]);
       });
   }, []);
 
@@ -28,8 +27,8 @@ export default function App() {
     <div className="App">
       <h1>Coffee App</h1>
       <div className="CoffeeStuff">
-        <CoffeeSelect />
-        <CoffeeCard beanName={beanName} />
+        <CoffeeSelect setBean={setBean} />
+        <CoffeeCard bean={bean} />
       </div>
     </div>
   );

@@ -1,37 +1,57 @@
 [
     {
         "name": "Tanzania Peaberry",
-        "roast": "medium",
+        "subText": "Rich, medium roast bean from Tanzania",
+        "roast": "Medium",
         "origin": "Tanzania",
-        "flavor": "deep and rich",
-        "brewing-methods": ["drip and pour over", "electric percolator", "napoletana"]
+        "flavor": "Deep and rich",
+        "brew": "Cold",
+        "brewingMethods": ["Drip and pour over, ", "Electric percolator, ", "Napoletana"],
+        "description": "A medium roast coffee bean from Tanzania. This bean has a deep and rich flavor. The most popular brewing method is to drip and pour over.",
+        "image": "https://cdn.shopify.com/s/files/1/0966/4438/products/image_498be450-c433-4af4-bae0-26e239884eb1_1024x1024.jpg?v=1612186189"
     },
     {
         "name": "Hawaii Kona",
-        "roast": "medium",
+        "subText": "Light, medium roast from Hawaii",
+        "roast": "Medium",
         "origin": "Hawaii",
-        "flavor": "rich and light",
-        "brewing-methods": ["drip and french press", "vacuum", "coffee bag"]
+        "flavor": "Rich and light",
+        "brew": "Warm or cold",
+        "brewingMethods": ["Drip and french press, ", "Vacuum, ", "Coffee bag"],
+        "description": "A medium roast coffee bean from Hawaii. This bean has a rich and light flavor. The most popular brewing method is to drip and french press.",
+        "image": "https://cdn.shopify.com/s/files/1/0096/7884/8096/products/kona-peaberry-coffee_800x.png?v=1627977586"
     },
     {
         "name": "Nicaraguan Coffee",
-        "roast": "dark",
+        "subText": "Dark roast bean from Nicaragua",
+        "roast": "Dark",
         "origin": "Nicaragua",
-        "flavor": "hints of chocolate",
-        "brewing-methods": ["french press", "pour over", "espresso"]
+        "flavor": "Hints of chocolate",
+        "brew": "Warm",
+        "brewingMethods": ["French press, ", "Pour over, ", "Espresso"],
+        "description": "A dark roast coffee bean from Nicaragua. This bean has a flavor that has hints of chocolate. The most popular brewing method is to french press.",
+        "image": "https://sc04.alicdn.com/kf/UTB8a.zAgTzIXKJkSafVq6yWgXXas.jpg"
     },
     {
         "name": "Sumatra Mandheling",
-        "roast": "dark",
+        "subText": "Smooth, dark roast from Indonesia",
+        "roast": "Dark",
         "origin": "Indonesia",
-        "flavor": "smooth and sweet",
-        "brewing-methods": ["moka pot", "espresso", "aeropress"]
+        "flavor": "Smooth and sweet",
+        "brew": "Warm",
+        "brewingMethods": ["Moka pot, ", "Espresso, ", "Aeropress"],
+        "description": "A dark roast coffee bean from Indonesia. This bean has a smooth and sweet flavor. The most popular brewing method is to use a moka pot.",
+        "image": "https://www.coffeemasters.com/assets/1/14/DimLarge/AR.jpg?1051"
     },
     {
         "name": "Yirgacheffe",
-        "roast": "light",
+        "subText": "Light roast bean from Ethiopia",
+        "roast": "Light",
         "origin": "Ethiopia",
-        "flavor": "light and fruity",
-        "brewing-methods": ["drip and pour over", "electric percolator", "cold press"]
+        "flavor": "Light and fruity",
+        "brew": "Warm or cold",
+        "brewingMethods": ["Drip and pour over, ", "Electric percolator, ", "Cold press"],
+        "description": "A light roast coffee bean from Ethiopia. This bean has a light and fruity flavor. The most popular brewing method is to drip and pour over.",
+        "image": "https://www.coffeebeancorral.com/images-cache/FD/C0/F556/FDC0F556D1CF61A1D92682422D61373955D4CA41.jpg"
     }
 ]

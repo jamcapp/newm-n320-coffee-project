@@ -20,6 +20,14 @@
   height: 100px;
   background-color: #43281c;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CoffeeCard .LeftSide .CoffeeImage img {
+  width: 90px;
+  height: 90px;
 }
 
 /* Description below image */

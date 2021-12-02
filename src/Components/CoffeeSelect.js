@@ -8,7 +8,7 @@ export default function CoffeeSelect(props) {
   return (
     <div className="CoffeeSelect">
       <h4>Select Coffee</h4>
-      <CoffeeSelectIcons />
+      <CoffeeSelectIcons setBean={props.setBean} />
     </div>
   );
 }

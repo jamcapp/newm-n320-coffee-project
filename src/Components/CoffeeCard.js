@@ -9,9 +9,11 @@ export default function CoffeeCard(props) {
     <div className="CoffeeCard">
       {/* IMAGE AND DESCRIPTION */}
       <div className="LeftSide">
-        <div className="CoffeeImage">IMAGE</div>
+        <div className="CoffeeImage">
+          <img src={props.bean.image} />
+        </div>
         <div className="CoffeeDescription">
-          this is a test sentence and more words to test the styling.
+          Description: {props.bean.description}
         </div>
       </div>
 
@@ -19,13 +21,13 @@ export default function CoffeeCard(props) {
         {/* CARD HEADER */}
         <div className="CardHeader">
           <div className="CoffeeName">
-            {props.beanName}
-            <div className="CoffeeSubtext">coffee subtext</div>
+            {props.bean.name}
+            <div className="CoffeeSubtext">{props.bean.subText}</div>
           </div>
         </div>
 
         {/* INFORMATION BOXES */}
-        <CoffeeCardInfoBoxes />
+        <CoffeeCardInfoBoxes bean={props.bean} />
       </div>
     </div>
   );
