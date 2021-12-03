@@ -15,7 +15,7 @@ export default function CoffeeCardInfoBoxes(props) {
 
       <div className="LargeBox">
         <div className="LargeBoxText">
-          Brewing Methods: {props.bean.brewingMethods}
+          Brewing Methods: {props.bean.brewingMethods.join(", ")}
         </div>
       </div>
     </div>

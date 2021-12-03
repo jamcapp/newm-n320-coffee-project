@@ -7,7 +7,7 @@ export default function App() {
   //hook for coffeeBeans
   const [coffeeBeans, setCoffeeBeans] = useState([]);
   //hook for currnet bean
-  const [bean, setBean] = useState({});
+  const [bean, setBean] = useState({ brewingMethods: [] });
 
   //load json data
   useEffect(() => {
