@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CoffeeCardInfoBoxes from "./CoffeeCardInfoBoxes";
 import "../styles.css";
+import { CSSTransition } from "react-transition-group";
 
 export default function CoffeeCard(props) {
   const [testVal, setTestVal] = useState(0);
