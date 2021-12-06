@@ -1,3 +1,6 @@
+.CoffeeStuff {
+}
+
 /* Card styling */
 .CoffeeCard {
   background-color: #fbf2c0;
@@ -6,6 +9,7 @@
   width: 500px;
   padding: 25px;
   display: flex;
+  margin-left: 35px;
 }
 
 /* Image and description area */
@@ -121,7 +125,8 @@
 /* CoffeeSelect */
 
 .CoffeeSelect {
-  margin-right: 20px;
+  margin-left: calc(-35% - 20px);
+  position: absolute;
 }
 
 /* these should be circles */
@@ -161,12 +166,13 @@
 /* slide in */
 .Coffee-Slide-enter {
   opacity: 0;
+  margin-top: 400px;
 }
 
 .Coffee-Slide-enter-active {
-  opacity: 0;
-  transition: opacity 200ms;
-  background-color: blue;
+  opacity: 1;
+  margin-top: 0px;
+  transition: 800ms;
 }
 /* slide out */
 .Coffee-Slide-exit {

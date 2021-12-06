@@ -6,7 +6,7 @@ import CoffeeSelect from "./Components/CoffeeSelect";
 export default function App() {
   //hook for coffeeBeans
   const [coffeeBeans, setCoffeeBeans] = useState([]);
-  //hook for currnet bean
+  //hook for current bean
   const [bean, setBean] = useState({ brewingMethods: [] });
 
   //load json data

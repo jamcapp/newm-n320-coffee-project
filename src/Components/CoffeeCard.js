@@ -40,7 +40,7 @@ export default function CoffeeCard(props) {
           {/* INFORMATION BOXES */}
           <CoffeeCardInfoBoxes bean={props.bean} />
         </div>
-        <button onClick={() => {setCardState(false); console.log(cardState);}}>[DEBUG] coffee state false</button>
+        <button onClick={() => {setCardState(false); console.log(cardState);}}>[DEBUG] [ANIMATION] coffee state false</button>
       </div>
     </CSSTransition>
   );
