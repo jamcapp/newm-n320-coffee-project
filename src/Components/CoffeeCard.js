@@ -4,19 +4,13 @@ import "../styles.css";
 import { CSSTransition } from "react-transition-group";
 
 export default function CoffeeCard(props) {
-  const [testVal, setTestVal] = useState(0);
-  const [cardState, setCardState] = useState(true);
-  const [animationLength, setAnimationLength] = useState(1250);
-
-  // on effect, set cardstate back to true after slide animation is complete.
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setCardState(true)
-    }, animationLength);
-  })
-
   return (
-    <CSSTransition key={testVal} in={cardState} timeout={animationLength} classNames="Coffee-Slide">
+    <CSSTransition
+      key={props.testVal}
+      in={props.cardState}
+      timeout={props.animationLength}
+      classNames="Coffee-Slide"
+    >
       <div className="CoffeeCard">
         {/* IMAGE AND DESCRIPTION */}
         <div className="LeftSide">
@@ -40,7 +34,6 @@ export default function CoffeeCard(props) {
           {/* INFORMATION BOXES */}
           <CoffeeCardInfoBoxes bean={props.bean} />
         </div>
-        <button onClick={() => {setCardState(false); console.log(cardState);}}>[DEBUG] [ANIMATION] coffee state false</button>
       </div>
     </CSSTransition>
   );

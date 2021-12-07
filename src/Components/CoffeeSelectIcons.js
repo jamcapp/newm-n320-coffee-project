@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import "../styles.css";
 
 export default function CoffeeSelect(props) {
-  const [testVal, setTestVal] = useState(0);
-
   return (
     <div>
       <button
         className="CoffeeIcon"
         onClick={() => {
           showCoffee(0);
+          props.setCardState(false);
+          console.log(props.cardState);
         }}
       >
         Tanzania Peaberry
@@ -18,6 +18,8 @@ export default function CoffeeSelect(props) {
         className="CoffeeIcon"
         onClick={() => {
           showCoffee(1);
+          props.setCardState(false);
+          console.log(props.cardState);
         }}
       >
         Hawaii Kona
@@ -26,6 +28,8 @@ export default function CoffeeSelect(props) {
         className="CoffeeIcon"
         onClick={() => {
           showCoffee(2);
+          props.setCardState(false);
+          console.log(props.cardState);
         }}
       >
         Nicaraguan Coffee
@@ -34,6 +38,8 @@ export default function CoffeeSelect(props) {
         className="CoffeeIcon"
         onClick={() => {
           showCoffee(3);
+          props.setCardState(false);
+          console.log(props.cardState);
         }}
       >
         Sumatra Mandheling
@@ -42,6 +48,8 @@ export default function CoffeeSelect(props) {
         className="CoffeeIcon"
         onClick={() => {
           showCoffee(4);
+          props.setCardState(false);
+          console.log(props.cardState);
         }}
       >
         Yirgacheffe
@@ -52,12 +60,14 @@ export default function CoffeeSelect(props) {
   function showCoffee(beanID) {
     // beanID is passed in as argument.
     console.log(beanID);
-    fetch("data/coffee.json")
-      .then((result) => result.json())
-      .then((data) => {
-        // log the data for the beanID.
-        console.log(data[beanID]);
-        props.setBean(data[beanID]);
-      });
+    setTimeout(() => {
+      fetch("data/coffee.json")
+        .then((result) => result.json())
+        .then((data) => {
+          // log the data for the beanID.
+          console.log(data[beanID]);
+          props.setBean(data[beanID]);
+        });
+    }, 635);
   }
 }
