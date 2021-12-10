@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/newm-n320-coffee-project/static/css/main.b1f09171.chunk.css",
+    "main.js": "/newm-n320-coffee-project/static/js/main.82380a42.chunk.js",
+    "main.js.map": "/newm-n320-coffee-project/static/js/main.82380a42.chunk.js.map",
+    "runtime-main.js": "/newm-n320-coffee-project/static/js/runtime-main.cfedc1eb.js",
+    "runtime-main.js.map": "/newm-n320-coffee-project/static/js/runtime-main.cfedc1eb.js.map",
+    "static/js/2.16f7bfad.chunk.js": "/newm-n320-coffee-project/static/js/2.16f7bfad.chunk.js",
+    "static/js/2.16f7bfad.chunk.js.map": "/newm-n320-coffee-project/static/js/2.16f7bfad.chunk.js.map",
+    "static/js/3.17ba6ca1.chunk.js": "/newm-n320-coffee-project/static/js/3.17ba6ca1.chunk.js",
+    "static/js/3.17ba6ca1.chunk.js.map": "/newm-n320-coffee-project/static/js/3.17ba6ca1.chunk.js.map",
+    "index.html": "/newm-n320-coffee-project/index.html",
+    "static/css/main.b1f09171.chunk.css.map": "/newm-n320-coffee-project/static/css/main.b1f09171.chunk.css.map",
+    "static/js/2.16f7bfad.chunk.js.LICENSE.txt": "/newm-n320-coffee-project/static/js/2.16f7bfad.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfedc1eb.js",
+    "static/js/2.16f7bfad.chunk.js",
+    "static/css/main.b1f09171.chunk.css",
+    "static/js/main.82380a42.chunk.js"
+  ]
+}
